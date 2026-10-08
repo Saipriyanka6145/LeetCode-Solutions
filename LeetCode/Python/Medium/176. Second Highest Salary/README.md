@@ -1,6 +1,6 @@
 # 📝 176. Second Highest Salary (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/second-highest-salary)
+🔗 [Problem Link](https://leetcode.com/problems/second-highest-salary/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Python-blue)
 
@@ -8,8 +8,8 @@
 Database
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 276 ms
+- **Memory:** 67.3 MB
 
 ---
 
