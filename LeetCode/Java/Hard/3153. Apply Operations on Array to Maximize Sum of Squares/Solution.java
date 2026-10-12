@@ -4,7 +4,7 @@ class Solution {
 
     public int maxSum(List<Integer> nums, int k) {
         
-        int MOD = 1000007;
+        int MOD = 1000000007;
         int[] cnt = new int[30];
         for(int num:nums){
             for(int i = 0;i<30;i++){
