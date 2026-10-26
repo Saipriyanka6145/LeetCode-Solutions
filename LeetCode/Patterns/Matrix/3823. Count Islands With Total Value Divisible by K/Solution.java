@@ -5,7 +5,7 @@ class Solution {
         for (int i = 0;i < m; i++){
             for (int j = 0;j<n;j++){
                 if (grid[i][j]>0){
-                    int total = dfs(grid,i,j);
+                    long total = dfs(grid,i,j);
                     if (total % k == 0) count++;
 
                 }
@@ -13,11 +13,11 @@ class Solution {
         }
         return count ;
     }
-    private int dfs(int[][] grid,int i,int j){
+    private long dfs(int[][] grid,int i,int j){
         if (i<0||i>=grid.length ||j<0||j>=grid[0].length||grid[i][j] ==0){
             return 0;
         }
-        int val = grid[i][j];
+        long val = grid[i][j];
         grid[i][j] = 0;
         val += dfs(grid,i+1,j);
         val += dfs(grid,i-1,j);
