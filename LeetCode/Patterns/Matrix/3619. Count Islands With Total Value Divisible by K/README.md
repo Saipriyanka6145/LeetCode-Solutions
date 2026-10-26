@@ -1,6 +1,6 @@
 # 📝 3619. Count Islands With Total Value Divisible by K (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/?envType=daily-question&envId=2026-10-26)
+🔗 [Problem Link](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
