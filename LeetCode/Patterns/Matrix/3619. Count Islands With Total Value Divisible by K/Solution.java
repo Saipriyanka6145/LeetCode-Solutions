@@ -6,7 +6,7 @@ class Solution {
             for (int j = 0;j<n;j++){
                 if (grid[i][j]>0){
                     int total = dfs(grid,i,j);
-                    if (total%k == 0) count++;
+                    if (total % k == 0) count++;
 
                 }
             }
