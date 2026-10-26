@@ -21,8 +21,8 @@ class Solution {
         grid[i][j] = 0;
         val += dfs(grid,i+1,j);
         val += dfs(grid,i-1,j);
-        val +=dfs(grid,i,j+1);
-        val +=dfs(grid,i,j-1);
+        val += dfs(grid,i,j+1);
+        val += dfs(grid,i,j-1);
         return val;
     }
     
