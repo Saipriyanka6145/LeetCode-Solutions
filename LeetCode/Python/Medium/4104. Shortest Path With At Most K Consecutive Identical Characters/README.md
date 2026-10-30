@@ -8,8 +8,8 @@
 String, Graph Theory, Heap (Priority Queue), Shortest Path
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 307 ms
+- **Memory:** 65.8 MB
 
 ---
 
